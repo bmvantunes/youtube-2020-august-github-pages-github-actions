@@ -12,6 +12,8 @@ import Head from 'next/head';
 import React from 'react';
 import theme from '../theme';
 
+const prefix = '/youtube-2020-august-github-pages-github-actions';
+
 export default class MyApp extends App {
   componentDidMount() {
     // Remove the server-side injected CSS.
@@ -27,6 +29,7 @@ export default class MyApp extends App {
     return (
       <React.Fragment>
         <Head>
+          <link rel="shortcut icon" href={prefix+'/favicon.ico'}/>
           <title>My page</title>
           <meta
             name="viewport"
