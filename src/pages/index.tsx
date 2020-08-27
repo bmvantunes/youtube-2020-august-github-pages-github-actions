@@ -13,6 +13,8 @@ export interface IndexProps {
   microphones: Microphone[];
 }
 
+const prefix = '/youtube-2020-august-github-pages-github-actions';
+
 export default function Index({ microphones }: IndexProps) {
   return (
     <Grid container spacing={3}>
@@ -26,7 +28,7 @@ export default function Index({ microphones }: IndexProps) {
                     component="img"
                     alt={microphone.brand + ' ' + microphone.model}
                     height="300"
-                    image={microphone.imageUrl}
+                    image={prefix + microphone.imageUrl}
                     title={microphone.brand + ' ' + microphone.model}
                   />
                   <CardContent>
