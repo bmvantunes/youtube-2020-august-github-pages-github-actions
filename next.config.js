@@ -1,4 +1,4 @@
 module.exports = {
-    basePath: '/youtube-2020-august-github-pages-github-actions',
-    assetPrefix: '/youtube-2020-august-github-pages-github-actions'
+    basePath: process.env.NEXT_PUBLIC_BASE_PATH,
+    assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH
 }
