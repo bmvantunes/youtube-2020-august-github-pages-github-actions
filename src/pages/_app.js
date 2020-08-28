@@ -41,7 +41,7 @@ export default class MyApp extends App {
             <IconButton edge="start" color="inherit" aria-label="menu">
               <MenuIcon />
             </IconButton>
-            <Typography variant="h6">Microphone Shop</Typography>
+            <Typography variant="h6">Microphone Shop (GH Pages)</Typography>
           </Toolbar>
         </AppBar>
         <ThemeProvider theme={theme}>
